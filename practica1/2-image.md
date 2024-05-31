@@ -27,7 +27,8 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/f1aea896-5f11-41ef-8c8b-c6f92f57e96b)
+
 
 **¿Qué es nginx**
 # COMPLETAR 
