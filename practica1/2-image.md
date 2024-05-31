@@ -7,7 +7,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+Una imagen es como una plantilla, mientras que un contenedor es una instancia en ejecución basada en esa plantilla y la imagen puede estar en varios contenedores. 
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
 ## Comandos para imágenes
@@ -31,10 +31,11 @@ Descargar la imagen **hello-world**
 
 
 **¿Qué es nginx**
-# COMPLETAR 
+Nginx es un servidor web/proxy inverso para protocolos de correo electrónico.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/0dc2d723-225f-429c-a6dd-912d34e20ab5)
+
 
 ### Listar imágenes
 
@@ -42,7 +43,8 @@ Descargar la imagen  **nginx** en la versión **alpine**
 docker images
 ```
 
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/c68d22d7-a2d3-424a-99f9-6d2f05213a36)
+
 
 **Identificadores**
 En Docker, se utilizan varios identificadores para diferenciar de manera única los elementos del sistema, como imágenes, contenedores, volúmenes y redes. Estos identificadores son generados automáticamente por Docker y son únicos dentro del contexto del sistema Docker en el que se encuentran. 
@@ -56,10 +58,12 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
-# COMPLETAR
+![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/a45a558f-21fb-4a6f-b4df-7f4327741112)
+
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/e135af39-7c69-499b-bc1b-6c00ce67a484)
+
 
 ### Filtrar imágenes
 
@@ -76,7 +80,8 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
+![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/85d97fae-eca2-473c-8ff7-7b86b403316e)
+
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
