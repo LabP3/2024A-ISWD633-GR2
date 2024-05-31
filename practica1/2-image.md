@@ -27,14 +27,20 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+
 ![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/f1aea896-5f11-41ef-8c8b-c6f92f57e96b)
+
+docker pull hello-world
 
 
 **¿Qué es nginx**
 Nginx es un servidor web/proxy inverso para protocolos de correo electrónico.
 
 Descargar la imagen  **nginx** en la versión **alpine**
+
 ![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/0dc2d723-225f-429c-a6dd-912d34e20ab5)
+
+docker pull nginx:alpine
 
 
 ### Listar imágenes
@@ -44,6 +50,8 @@ docker images
 ```
 
 ![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/c68d22d7-a2d3-424a-99f9-6d2f05213a36)
+
+docker images
 
 
 **Identificadores**
@@ -58,10 +66,14 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
+
 ![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/a45a558f-21fb-4a6f-b4df-7f4327741112)
+
+docker inspect hello-world
 
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
+
 ![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/e135af39-7c69-499b-bc1b-6c00ce67a484)
 
 
@@ -80,7 +92,10 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
+
 ![image](https://github.com/LabP3/2024A-ISWD633-GR2/assets/171348095/85d97fae-eca2-473c-8ff7-7b86b403316e)
+
+docker rmi hello-world
 
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
